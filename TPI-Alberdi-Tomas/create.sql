@@ -1,0 +1,2 @@
+create table if not exists Odontologos(matricula varchar(50),nombre varchar(255),apellido varchar(255));
+create table if not exists Pacientes(DNI varchar(20),nombre varchar(255),apellido varchar(255),domicilio varchar(255),fecha_alta varchar(255));
